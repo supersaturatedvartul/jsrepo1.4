@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 5px;
+    border: solid 1px black;
+}
+
+button {
+    border: solid 1px black;
+    background-color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+}
