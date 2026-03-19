@@ -1,0 +1,31 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: solid 1px black;
+    border-radius: 10px;
+    padding: 30px;
+    background-color: aliceblue;
+}
+
+button {
+    margin: 20px;
+    padding: 10px;
+    background-color: azure;
+    border-radius: 10px;
+    border: solid 1px black;
+}
+
+#num {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
