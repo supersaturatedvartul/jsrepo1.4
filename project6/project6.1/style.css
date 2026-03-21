@@ -1,0 +1,24 @@
+.mystyle {
+    background-color: rgb(72, 72, 72);
+}
+
+.container {
+    background-color:azure;
+    border: solid 3px black;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bordercolor {
+    border: solid 3px lightsalmon;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: ease-in 0.3s;
+}
