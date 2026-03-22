@@ -1,0 +1,53 @@
+body {
+    background-color: azure;
+    transition: ease-in 0.3s;
+}
+
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    border: solid 5px black;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: aliceblue;
+}
+
+#clicker {
+    background-color: chartreuse;
+    border: solid 1px black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#clicker:hover {
+    background-color: rgb(192, 255, 129);
+    transform: scale(1.03);
+    transition: ease-in 0.1s;
+}
+
+.mode {
+background-color: rgb(33, 33, 33);
+}
+
+#toggler {
+    background-color: azure;
+    border-radius: 10px;
+    border: solid 3px black;
+    padding: 20px;
+}
+
+#num {
+    font-size: 30px;
+    font-weight: bold;
+}
