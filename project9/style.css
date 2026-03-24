@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    background:linear-gradient(to right, red,blue);
+}
+
+.container {
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: antiquewhite;
+}
+
+#name {
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid 2px black;
+    transition: ease-in 0.2s;
+}
+
+button:hover {
+    border: solid 2px blue;
+    background-color: aqua;
+    transform: scale(1.05);
+}
