@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    border: solid 2px black;
+    box-shadow: 5px 5px 5px hsl(0, 0%, 45%);
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+    margin-top: 20px;
+    background-color: rgb(64, 64, 255);
+    padding: 10px;
+    border: solid 1px black;
+    border-radius: 10px;
+    color: white;
+}
+
+button:hover {
+   background-color: rgb(40, 40, 159); 
+}
+
+#pass {
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#copy:disabled {
+    background-color: black;
+    color: white;
+}
+
+#copy {
+    background-color: aliceblue;
+    color: black;
+    
+}
+
+.passsection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
