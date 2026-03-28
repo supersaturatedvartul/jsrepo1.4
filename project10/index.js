@@ -3,7 +3,8 @@ const roller = document.getElementById('roll');
 
 let value;
 
-roller.addEventListener('click',function (){
+roller.addEventListener('click',function (e){
+    e.preventDefault();
     value = Math.floor(Math.random()*6)+1
     if (value === 1) {
         dice.innerHTML = `<img src="images/one.png" width=200px>`;

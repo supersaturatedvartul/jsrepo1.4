@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    background: linear-gradient(to right,white,rgb(192, 192, 249),blue);
+}
+
+.container {
+    border: solid 2px black;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: azure;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.buttons > button {
+    border: solid 1px black;
+    border-radius: 10px;
+    height: 40px;
+    width: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+#inputsec {
+    width:190px;
+    height: 30px;
+    border: solid 2px black;
+    border-radius: 10px;
+    background-color: aliceblue;
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+#result {
+    background-color: rgb(255, 136, 0);
+}
+
+button:active {
+    background-color: aliceblue;
+}
