@@ -64,9 +64,16 @@ h1 {
 li {
     display: flex;
     align-items: center;
-    gap: 20px;
+    justify-content: space-between;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    gap: 20px;
     font-size: 20px;
+    width: 300px;
+    padding-bottom: 10px;
+}
+
+li span {
+    flex: 1;
 }
 
 li button {
@@ -77,4 +84,5 @@ li button {
     border-radius: 10px;
     padding-left: 10px;
     padding-right: 10px;
+    margin-left: auto;
 }
