@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+.notes-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#notes-title {
+ border: solid 2px black;
+ border-radius: 5px;   
+}
+
+#store {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgb(54, 54, 253);
+    color: white;
+    border-radius: 10px;
+    border: solid 1px black;
+}
+
+#store:hover {
+    background-color: rgb(165, 165, 255);
+}
+
+#notes {
+    margin-top: 10px;
+    border: solid 2px black;
+    border-radius: 10px;
+}
+
+#notepages div {
+    margin-top: 20px;
+    padding: 10px;
+    border: solid 1px black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(129, 129, 129);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
