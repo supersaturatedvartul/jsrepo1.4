@@ -41,6 +41,7 @@ function countdown() {
     if (count <= 0) {
         clearInterval(interval);
         interval = null;
+        inc.disabled = false;
     }
 }
 

@@ -20,6 +20,7 @@ function timers() {
             mcount = 0;
             scount = 0;
             hcount+=1;
+            hour.textContent = hcount;
         }
     }
 let interval;
