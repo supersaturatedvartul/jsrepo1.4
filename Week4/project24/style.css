@@ -1,0 +1,121 @@
+body {
+    background-color: rgb(11, 0, 61);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-weight: bold;
+    border: solid 1px white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#userinput {
+    border: solid 0.5px white;
+    background:  rgb(11, 0, 61);
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+}
+
+#userinput:focus {
+    border-color: rgb(1, 248, 219);
+    background:  rgb(11, 0, 61);
+    border-radius: 5px;
+}
+
+.inputfield {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#searchbtn {
+    background-color: rgb(184, 255, 113);
+    border: solid 1px rgb(128, 255, 0);
+    border-radius: 5px;
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: ease-in 0.2s;
+}
+
+#searchbtn:hover {
+    transform: scale(1.05);
+    background-color: rgb(252, 252, 128);
+}
+
+#searchbtn:active {
+    background-color: rgb(0, 152, 0);
+}
+
+.resultcard {
+    border: solid 1px white;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    gap: 5px;
+}
+
+#username {
+    margin: 0;
+}
+
+#loginname {
+    margin: 0;
+    font-style: italic;
+    color:yellow;
+    font-size: 15px;
+}
+
+.followclass {
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    margin: 0;
+}
+
+#userbio {
+    margin: 0;
+}
+
+#url {
+    margin: 0;
+    color: white;
+    transition: ease 0.2s;
+    text-decoration: none;
+}
+
+#url:active {
+    color: aqua;
+}
+
+#url:hover {
+    color:aliceblue;
+    text-decoration: underline;
+}
+
+.errorcard {
+    border: solid 1px white;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-color: rgb(251, 66, 66);
+    font-weight: bold;
+}
