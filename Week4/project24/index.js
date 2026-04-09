@@ -27,6 +27,7 @@ async function fletcher(name) {
             results.removeChild(results.firstChild);
             }
             results.appendChild(p);
+            results.classList.remove('resultcard');
             results.classList.add('errorcard');
             return;
         }
@@ -51,5 +52,6 @@ async function fletcher(name) {
         }
         results.appendChild(p);
         results.classList.add('errorcard');
+        results.classList.remove('resultcard');
     }
 }
