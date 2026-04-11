@@ -1,0 +1,44 @@
+body {
+    background-color: cornsilk;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px;
+    border: solid 1px black;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+#finput {
+    width: 262px;
+    font-size: 20px;
+    border: solid 1px black;
+    border-radius: 5px;
+    background-color: cornsilk;
+}
+
+.results {
+    background-color: aliceblue;
+    padding-top: 10px;
+    padding-bottom: 10px ;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: solid 1px black;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.results p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
