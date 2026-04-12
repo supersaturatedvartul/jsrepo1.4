@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+} 
+
+#input {
+    font-size: 20px;
+    border: solid 2px black;
+    border-radius: 5px;
+}
+
+.searchfield {
+    transition: ease-in 0.15s;
+}
+
+.resultsprops {
+    border-left: solid 2px black;
+    border-right: solid 2px black;
+    border-bottom: solid 2px black;
+    gap: 5px;
+    padding-left: 5px;
+    background-color: aliceblue;
+}
+
+.resultsprops p {
+    margin-top: 0;
+    background-color: aliceblue;
+}
+.resultsprops p:hover {
+    background-color: rgb(182, 221, 255);
+}
+
+.searchprops {
+    border-bottom: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
