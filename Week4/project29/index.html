@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div id="qna">
+            <h1 id="question"></h1>
+            <div class="optionsection">
+                <div class="optionfield">
+                    <input type="radio" id="q1" name="qo">
+                    <label for="q1" id="label1"></label>
+                </div>
+                <div class="optionfield">
+                    <input type="radio" id="q2" name="qo">
+                    <label for="q2" id="label2"></label>
+                </div>
+                <div class="optionfield">
+                    <input type="radio" id="q3" name="qo">
+                    <label for="q3" id="label3"></label>
+                </div>
+                <div class="optionfield">
+                    <input type="radio" id="q4" name="qo">
+                    <label for="q4" id="label4"></label>
+                </div>
+            </div>
+        </div>
+        <div class="previous-next">
+            <button id="prev">Previous</button>
+            <button id="next">Next</button>
+        </div>
+    </div>
+    <div class="scoreboard">
+        <p id="score">0</p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

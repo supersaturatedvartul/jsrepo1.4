@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 90vh;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: solid 1px black;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+h1 {
+    background-color: cornsilk;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.optionsection {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.previous-next {
+    margin-top: 10px;
+    border-top: solid 1px black;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.optionfield {
+    display: flex;
+    gap: 10px;
+}
+
+.scoreboard {
+    margin-top: 20px;
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: solid 1px black;
+    border-radius: 10px;
+    background-color: azure;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
