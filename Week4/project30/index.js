@@ -7,7 +7,7 @@ function initer() {
 emailjs.init({
     publicKey: 'public_key',
 });
-};
+}; 
 
 initer();
 
