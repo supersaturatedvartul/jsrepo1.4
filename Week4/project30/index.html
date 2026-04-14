@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+</head>
+<body>
+    <nav class="navbarclass">
+        <h1>vartul</h1>
+        <ul class="navlinks">
+            <li><a class="navbarlink" href="#hero">Home</a></li>
+            <li><a class="navbarlink" href="#skills">Skills</a></li>
+            <li><a class="navbarlink" href="#projects">Projects</a></li>
+            <li><a class="navbarlink" href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="hero">
+        <div class="userimg">
+            <img src="images/userimg.png" alt="thisisuserimg">
+        </div>
+        <div class="userbio">
+            <h2>Hi,this is vartul</h2>
+            <p>Web Developer</p>
+            <p>I m an Engineering Graduate focused on Web Development.</p>
+        </div>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skillcatalog">
+            <div class="plang">
+                <h3 class="skillhdr">Python</h3>
+                <i class="devicon-python-plain"></i>
+            </div>
+            <div class="hlang">
+                <h3 class="skillhdr">HTML</h3>
+                <i class="devicon-html5-plain"></i>
+            </div>
+            <div class="clang">
+                <h3 class="skillhdr">CSS</h3>
+                <i class="devicon-css3-plain"></i>
+            </div>
+            <div class="jlang">
+                <h3 class="skillhdr">Javascript</h3>
+            <i class="devicon-javascript-plain"></i>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <h3>Projects</h3>
+        <div class="projectcard">
+            <div class="project">
+                <span class="projecthding">Weather App</span>
+                <img src="images/weather app.png" alt="weatherappimg" class="projimg">
+                <p class="projdesc">This project involves usage of public weather API from which we fetched weather data.</p>
+                <button class="projbtn"><a class="projlink" href="https://github.com/supersaturatedvartul/jsrepo1.4/tree/main/Week4/project23">Check out my project</a></button>
+            </div>
+            <div class="project">
+                <span class="projecthding">Temperature Converter</span>
+                <img src="images/tempconvert.png" alt="temperatureconverterappimg" class="projimg">
+                <p class="projdesc">In this project, we convert the temperature from Celsius to Fahrenheit and Fahrenheit to Celsius.</p>
+                <button class="projbtn"><a class="projlink" href="https://github.com/supersaturatedvartul/jsrepo1.4/tree/main/Week2/project14">Check out my project</a></button>
+            </div>
+            <div class="project">
+                <span class="projecthding">Simple Calculator</span>
+                <img src="images/calc.png" alt="weatherappimg" class="projimg">
+                <p class="projdesc">A Simple Calculator for calculation built using HTML,CSS and Javascript.</p>
+                <button class="projbtn"><a class="projlink" href="https://github.com/supersaturatedvartul/jsrepo1.4/tree/main/Week2/project13">Check out my project</a></button>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h3 class="contacthdr">Contact</h3>
+        <div class="contactform">
+            <form action="" id="formfield">
+                <div class="formclass">
+                    <label for="useremail">Email:</label>
+                    <input type="text" id="useremail" name="email" placeholder="Enter your email:" required>
+                </div>
+                <div class="formclass">
+                    <label for="username">Name:</label>
+                    <input type="text" id="username" name="name" placeholder="Enter your name:" required>
+                </div>
+                <div class="formclass">
+                    <label for="usermessage">Message:</label>
+                    <textarea maxlength="200" name="usermessage" id="usermessage" placeholder="Enter your message:" required></textarea>
+                </div>
+                <input type="text" style="display: none;">
+                <button type="submit" id="submitbtn">Submit</button>
+            </form>
+        </div>
+    </section>
+    <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+    <script src="index.js"></script>
+</body>
+</html>
